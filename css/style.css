@@ -416,7 +416,7 @@ color:#4D5AE5;
     line-height: 1.5;
     letter-spacing: 0.02em ;
     max-width: 264px;
-    display:block;
+    
 
     
    
@@ -432,6 +432,7 @@ color:#4D5AE5;
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    display: inline-block;
     margin-bottom: 16px;
     
 }
@@ -439,25 +440,35 @@ color:#4D5AE5;
     color:  #F4F4FD;
 }
 
-    
 
+.container_footer{
+    display: flex;
+ align-items: baseline;
+}
+.container_soc{
+    margin-left: 120px;
+}
 .social-footer{
-   
-    max-height: 24px;
     color: #FFF;
+    font-family: Roboto;
     font-size: 16px;
+    font-style: normal;
     font-weight: 500;
     line-height: 24px; 
-    letter-spacing: 0.32px; 
-    display: flex;
-    margin-left: 269px;
+    letter-spacing: 0.32px;
+    
+    margin-bottom: 16px;
+   
+   
 }
 .social_media{
     
     display: flex;
     justify-content: center;
-    gap: 24px;
-    
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 0;
+    padding-right: 0;
     
 
 }
