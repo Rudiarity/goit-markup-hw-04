@@ -310,11 +310,12 @@ overflow: hidden;
     display: flex;
     justify-content: center;
     gap: 24px;
+    
 }
 .icon-item-link{
-   width: 40px;
+    width: 40px;
    height: 40px;
-   
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
    
 }
 .social-icon{
@@ -445,8 +446,8 @@ color:#4D5AE5;
     display: flex;
  align-items: baseline;
 }
-.container_soc{
-    margin-left: 120px;
+.footer_logo_text{
+    margin-right: 120px;
 }
 .social-footer{
     color: #FFF;
@@ -475,6 +476,7 @@ color:#4D5AE5;
 .social_media_item{
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
        
 }
 .social_media_link{
